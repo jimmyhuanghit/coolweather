@@ -18,7 +18,6 @@ import hit.coolweather.model.Province;
 public class CoolWeatherDB {
 
     //database name
-
     public static final String DB_NAME = "cool_weather";
 
     //database version
@@ -54,7 +53,6 @@ public class CoolWeatherDB {
 
 
     //从数据读取全国所有的省份信息
-
     public List<Province> loadProvinces(){
         List<Province> list = new ArrayList<Province>();
         Cursor cursor = db.query("Province", null, null, null, null, null, null);
