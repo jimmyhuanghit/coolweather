@@ -64,7 +64,7 @@ public class WeatherActivity extends Activity implements View.OnClickListener {
             //
             publishText.setText("同步中...");
             weatherInfoLayout.setVisibility(View.INVISIBLE);
-            cityNameText.setVisibility(View.INVISIBLE);
+            //cityNameText.setVisibility(View.INVISIBLE);
             queryWeatherCode(countyCode);
         }else {
             //
